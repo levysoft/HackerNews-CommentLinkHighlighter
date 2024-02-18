@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         Hacker News Enhancements: Highlight Links & Author
+// @name         Hacker News Enhancements: Highlight Comment Links (Without Replies) & Author
 // @namespace    https://www.levysoft.it
 // @description  Highlights all links in the comments on Hacker News without affecting the reply links, and makes the author name more apparent.
 // @include      https://news.ycombinator.com/item?id=*
 // @include      http://news.ycombinator.com/item?id=*
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
-// @version      1.0
+// @version      1.1
 // ==/UserScript==
 
 // Settings for links
