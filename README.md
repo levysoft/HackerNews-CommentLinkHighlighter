@@ -1,4 +1,4 @@
-# Hacker News Scripts
+# Hacker News Enhancer
 
 Collection of Tampermonkey scripts designed to enhance your browsing experience on Hacker News. Each script serves a specific purpose, from highlighting links in comments to making author names more apparent. These scripts are easy to install and use, aiming to improve readability and navigation on Hacker News.
 
