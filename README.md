@@ -5,14 +5,14 @@ Collection of Tampermonkey scripts designed to enhance your browsing experience 
 ## Scripts
 
 ### Hacker News Comment Link Highlighter
-**File**: `scripts/comment-link-highlighter.user.js`
+**File**: `scripts/hacker-news-highlight-comments-links-1.0.user.js`
 
 Highlights all links within the comments on Hacker News, excluding reply links. This script makes external links stand out with a custom background color, improving the readability of comments. This allows users to easily identify external or relevant links without being distracted by the default reply links present under each comment.
 
 After installation, navigate to [Hacker News](https://news.ycombinator.com/) and open any comment thread. You will notice that all links in the comments are now highlighted, making them more visible as you scroll through the page.
 
 ### Hacker News Author Highlight and Link Highlighting Without Replies
-**File**: `scripts/author-highlight.user.js`
+**File**: `scripts/hacker-news-highlight-comments-links-and-author-1.0.user.js`
 
 This script enhances the visibility of the post author's name in the comments section by applying a distinct background color to it, making it more apparent when scrolling through comments. Additionally, it highlights all external links within the comments, excluding the "reply" links, to make them stand out. This dual functionality helps users easily identify both the comments made by the original poster and the external resources linked within the comments, improving navigation and readability on Hacker News.
 
