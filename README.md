@@ -21,7 +21,7 @@ After installation, navigate to [Hacker News](https://news.ycombinator.com/) and
 These enhancements work together to provide a more streamlined and user-friendly browsing experience on Hacker News, helping you to focus on content that matters most to you.
 
 ### Hacker News Link Highlighting (Without Replies) with Domain Customization and Author Highlighting
-**File**: `scripts/hacker-news-highlight-comments-links-domain-customization-1.2.user.js`
+**File**: `scripts/hacker-news-highlight-comments-links-with-domain-customization-and-highlight-author-1.2.user.js`
 
 This script not only highlights all links within the comments on Hacker News, excluding reply links, but also customizes the highlight color based on the domain of the link. Links from GitHub are highlighted with a black background and white text, links from Wikipedia have a grey background and white text, while all other links use the standard orange-red background with white text. This domain-specific highlighting allows users to easily distinguish between different sources of information without being distracted by reply links or overwhelmed by a uniform color scheme.
 
