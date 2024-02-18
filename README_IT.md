@@ -19,7 +19,7 @@ Questo script aumenta la visibilità del nome dell'autore del post nella sezione
 Dopo l'installazione, naviga su [Hacker News](https://news.ycombinator.com/) ed entra nella sezione commenti di qualsiasi articolo. Noterai immediatamente i miglioramenti apportati dallo script: il nome dell'autore del post risalta con un colore di sfondo distinto per un'identificazione facile, e i link esterni nei commenti sono evidenziati—escludendo i link di "risposta"—semplificando la tua navigazione distinguendo tra contenuto e gestione della discussione.
 
 ### Evidenziazione dei Link su Hacker News (Senza Risposte) con Personalizzazione del Dominio ed Evidenziazione dell'Autore
-**File**: `scripts/hacker-news-highlight-comments-links-domain-customization-1.2.user.js`
+**File**: `scripts/hacker-news-highlight-comments-links-with-domain-customization-and-highlight-author-1.2.user.js`
 
 Questo script non solo mette in evidenza tutti i link all'interno dei commenti su Hacker News, escludendo i link di risposta, ma personalizza anche il colore di evidenziazione in base al dominio del link. I link provenienti da GitHub sono evidenziati con uno sfondo nero e testo bianco, i link da Wikipedia hanno uno sfondo grigio e testo bianco, mentre tutti gli altri link utilizzano lo sfondo standard arancione-rosso con testo bianco. Questa personalizzazione specifica del dominio permette agli utenti di distinguere facilmente tra diverse fonti di informazione senza essere distratti dai link di risposta o sopraffatti da uno schema di colori uniforme.
 
