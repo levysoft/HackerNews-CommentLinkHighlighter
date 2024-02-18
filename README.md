@@ -1,7 +1,7 @@
-# HackerNews Comment Link Highlighter
+# Hacker News Comment Link Highlighter
 
 ## Descrizione
-Lo script "HackerNews Comment Link Highlighter" è un userscript per Tampermonkey che mira a migliorare la leggibilità e l'usabilità di Hacker News evidenziando tutti i link presenti nei commenti degli articoli, escludendo i link di risposta. Questo permette agli utenti di identificare facilmente i link esterni o rilevanti senza essere distratti dai link di risposta che sono presenti di default sotto ogni commento.
+Lo script "Hacker News Comment Link Highlighter" è un userscript per Tampermonkey che mira a migliorare la leggibilità e l'usabilità di Hacker News evidenziando tutti i link presenti nei commenti degli articoli, escludendo i link di risposta. Questo permette agli utenti di identificare facilmente i link esterni o rilevanti senza essere distratti dai link di risposta che sono presenti di default sotto ogni commento.
 
 ## Caratteristiche
 - Evidenzia tutti i link nei commenti su Hacker News con un colore di sfondo #FF4500 e un colore del testo #FFFFFF.
@@ -16,8 +16,8 @@ Per utilizzare questo script, devi avere Tampermonkey installato nel tuo browser
     - [Tampermonkey per Chrome](https://tampermonkey.net/?ext=dhdg&browser=chrome)
     - [Tampermonkey per Firefox](https://tampermonkey.net/?ext=dhdg&browser=firefox)
     - [Tampermonkey per Safari](https://tampermonkey.net/?ext=dhdg&browser=safari)
-2. Apri il link dello script "HackerNews Comment Link Highlighter":
-    - [Installare HackerNews Comment Link Highlighter](#)
+2. Apri il link dello script "Hacker News Comment Link Highlighter":
+    - [Installare Hacker News Comment Link Highlighter](#)
     (Nota: Sostituisci `#` con l'URL effettivo del file `.user.js` nel tuo repository GitHub)
 3. Tampermonkey dovrebbe riconoscere automaticamente lo script e mostrare una finestra per l'installazione. Clicca su "Install" o "Installa".
 
