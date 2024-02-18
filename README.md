@@ -5,7 +5,7 @@ Collection of Tampermonkey scripts designed to enhance your browsing experience 
 ## Scripts
 
 ### Hacker News Comment Link Highlighter
-**File**: `scripts/hacker-news-highlight-comments-links-1.0.user.js`
+**File**: `scripts/hacker-news-highlight-comments-links-and-author-1.1.user.js`
 
 Highlights all links within the comments on Hacker News, excluding reply links. This script makes external links stand out with a custom background color, improving the readability of comments. This allows users to easily identify external or relevant links without being distracted by the default reply links present under each comment.
 
