@@ -12,7 +12,7 @@ Mette in evidenza tutti i link presenti nei commenti su Hacker News, escludendo 
 Dopo l'installazione, naviga su [Hacker News](https://news.ycombinator.com/) e apri qualsiasi thread di commenti. Noterai che tutti i link nei commenti sono ora evidenziati, rendendoli più visibili mentre scorri la pagina.
 
 ### Evidenziatore dell'Autore e dei Link nei Commenti di Hacker News Senza Risposte
-**File**: `scripts/hacker-news-highlight-comments-links-and-author-1.0.user.js`
+**File**: `scripts/hacker-news-highlight-comments-links-and-author-1.1.user.js`
 
 Questo script aumenta la visibilità del nome dell'autore del post nella sezione dei commenti applicando un colore di sfondo distinto, rendendolo più evidente durante la navigazione nei commenti. Inoltre, evidenzia tutti i link esterni nei commenti, escludendo i link di "risposta", per farli risaltare. Questa doppia funzionalità aiuta gli utenti a identificare facilmente sia i commenti fatti dall'autore originale sia le risorse esterne linkate nei commenti, migliorando la navigazione e la leggibilità su Hacker News.
 
