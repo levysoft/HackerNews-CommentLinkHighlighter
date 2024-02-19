@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Hacker News Enhancements: Highlight Comment Links (Without Replies) & Author With Domain Customization
+// @name         Hacker News Enhancements: Highlight Comment Links (Without Replies) With Domain Customization and Highlight Author
 // @namespace    https://github.com/levysoft
 // @author       levysoft
 // @description  Highlights all links in the comments on Hacker News with custom colors based on the domain, excluding reply links.
