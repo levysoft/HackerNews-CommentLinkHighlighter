@@ -1,4 +1,4 @@
-# UserScripts for Tampermonkey Scripts
+# UserScripts for Tampermonkey
 
 Questa repository contiene una collezione di script Tampermonkey progettati per migliorare l'esperienza utente su siti web popolari come GitHub e Hacker News.
 
