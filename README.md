@@ -1,43 +1,25 @@
-# Hacker News Enhancer
+# UserScripts for Tampermonkey
 
-Collection of Tampermonkey scripts designed to enhance your browsing experience on Hacker News. Each script serves a specific purpose, from highlighting links in comments and making author names more apparent, to customizing link colors based on their domain. These enhancements aim to improve readability, navigation, and overall engagement on Hacker News, making it easier and more intuitive to distinguish between different types of content and sources directly from the comments section. These scripts are easy to install and use, offering a tailored browsing experience to each user.
+This repository contains a collection of Tampermonkey scripts designed to enhance the user experience on popular websites like GitHub and Hacker News.
 
-Collection of Tampermonkey scripts designed to enhance your browsing experience on Hacker News. Each script serves a specific purpose, from highlighting links in comments and making author names more apparent, to customizing link colors based on their domain and ensuring links open in a new tab. These enhancements aim to improve readability, navigation, and overall engagement on Hacker News, making it easier and more intuitive to distinguish between different types of content and sources directly from the comments section, without leaving the current page. These scripts are easy to install and use, offering a tailored browsing experience to each user, enhancing the way content is interacted with and consumed.
+## Included Scripts
 
-## Scripts
+### GitHub Auto Redirect to User Repositories
+**File**: `scripts/github-auto-redirect-to-user-repositories-1.0.user.js`
 
-### Hacker News Comment Link Highlighter (Without Replies)
-**File**: `scripts/hacker-news-highlight-comments-links-1.0.user.js`
+This script automatically redirects logged-in GitHub users to their repositories page as soon as they visit the GitHub homepage. It is intended for those who want to quickly access their projects without having to navigate through the user menu.
 
-Highlights all links within the comments on Hacker News, excluding reply links. This script makes external links stand out with a custom background color, improving the readability of comments. This allows users to easily identify external or relevant links without being distracted by the default reply links present under each comment.
+### Hacker News Enhancements
+**File**: `scripts/hacker-news-enhancer-1.0.js`
 
-After installation, navigate to [Hacker News](https://news.ycombinator.com/) and open any comment thread. You will notice that all links in the comments are now highlighted, making them more visible as you scroll through the page.
+This script improves reading comments on Hacker News by highlighting links based on their domain, highlighting the name of the post author, and ensuring that all links open in a new tab. It is ideal for users who desire more intuitive navigation and greater readability of content, allowing for easy identification of external or relevant links.
 
-### Hacker News Comment Link Highlighter (Without Replies) and Author Highlighting
-**File**: `scripts/hacker-news-highlight-comments-links-and-author-1.0.user.js`
+After installation, navigate to [Hacker News](https://news.ycombinator.com/) and open any comment thread. You will notice that all links are now highlighted not only to stand out but also to indicate their source domain at a glance, and clicking on them will open the content in a new tab.
 
-This script enhances the visibility of the post author's name in the comments section by applying a distinct background color to it, making it more apparent when scrolling through comments. Additionally, it highlights all external links within the comments, excluding the "reply" links, to make them stand out. This dual functionality helps users easily identify both the comments made by the original poster and the external resources linked within the comments, improving navigation and readability on Hacker News.
+## Compatibility and Installation
 
-After installation, navigate to [Hacker News](https://news.ycombinator.com/) and enter any article's comments section. You'll immediately notice the script's enhancements: the post author's name stands out with a distinct background color for easy identification, and external links within comments are highlighted—excluding "reply" links—streamlining your navigation by differentiating between content and discussion management.
-
-### Hacker News Link Highlighting (Without Replies) with Domain Customization and Author Highlighting
-**File**: `scripts/hacker-news-highlight-comments-links-with-domain-customization-and-highlight-author-1.2.user.js`
-
-This script not only highlights all links within the comments on Hacker News, excluding reply links, but also customizes the highlight color based on the domain of the link. Links from GitHub are highlighted with a black background and white text, links from Wikipedia have a grey background and white text, while all other links use the standard orange-red background with white text. This domain-specific highlighting allows users to easily distinguish between different sources of information without being distracted by reply links or overwhelmed by a uniform color scheme.
-
-After installation, navigate to [Hacker News](https://news.ycombinator.com/) and open any comment thread. You'll notice that links are now highlighted not just to stand out, but also to indicate their source domain at a glance, improving your overall reading and navigation experience on the site.
-
-### Hacker News Enhancements: Highlight Comment Links (Without Replies) & Author With Domain Customization and open link in a new tab
-**File**: `scripts/hacker-news-highlight-comments-links-with-domain-customization-and-highlight-author-and_open_new_tab-1.3.js`
-
-This script not only highlights all links within the comments on Hacker News, excluding reply links, but also customizes the highlight color based on the domain of the link. Links from GitHub are highlighted with a black background and white text, links from Wikipedia have a grey background and white text, while all other links use the standard orange-red background with white text. Additionally, this script ensures that all highlighted links open in a new tab, allowing users to explore external content without navigating away from Hacker News. This domain-specific highlighting and new tab functionality allow users to easily distinguish between different sources of information and manage their browsing experience more efficiently.
-
-After installation, navigate to [Hacker News](https://news.ycombinator.com/) and open any comment thread. You'll notice that links are now highlighted not just to stand out, but also to indicate their source domain at a glance, and clicking on them will open the content in a new tab. This improves your overall reading and navigation experience on the site, making it easier to engage with the content that interests you the most.
-
-These enhancements work together to provide a more streamlined and user-friendly browsing experience on Hacker News, helping you to focus on content that matters most to you.
-
-## How to Install
-To use this script, you must have Tampermonkey installed in your browser. Tampermonkey is available for Chrome, Firefox, Safari, and other modern browsers.
+These scripts have been designed to be compatible with both **Tampermonkey** and **Greasemonkey**, thus providing a wide range of options for users of different browsers. However, given the greater versatility and availability on multiple platforms, we recommend using **Tampermonkey** for a better user experience as it is available for Chrome, Firefox, Safari, and other modern browsers.
+The functionality of the scripts remains the same regardless of the script manager used. Ensure you have the latest version of the script manager installed to guarantee compatibility and proper functioning of the scripts.
 
 ### Installation Steps:
 1. Install Tampermonkey in your browser:
@@ -46,7 +28,10 @@ To use this script, you must have Tampermonkey installed in your browser. Tamper
     - [Tampermonkey for Safari](https://tampermonkey.net/?ext=dhdg&browser=safari)
 2. Navigate to the desired script in the `/scripts` directory.
 3. Click on the script file to view it, then click the "Raw" button to open the raw script file.
-4. Tampermonkey should automatically recognize the script and display an installation window.. Click "Install" to proceed.
+4. Tampermonkey should automatically recognize the script and display an installation window. Click "Install" to proceed.
+
+### Installation with Greasemonkey (for Firefox users)
+If you are a **Firefox** user and prefer **Greasemonkey**, the scripts should also work in this environment. However, since our installation guide is optimized for Tampermonkey, we invite you to follow the general instructions provided by Greasemonkey's documentation to add userscripts to your browser.
 
 ## Feedback and Contributions
 Your feedback is highly appreciated! If you have suggestions, bugs to report, or improvements, feel free to open an issue or a pull request in the GitHub repository. If you would like to contribute to the project, pull requests are welcome.
