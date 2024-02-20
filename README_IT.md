@@ -5,12 +5,12 @@ Questa repository contiene una collezione di script Tampermonkey progettati per 
 ## Script Inclusi
 
 ### GitHub Auto Redirect to User Repositories
-**File**: `scripts/github-auto-redirect-to-user-repositories-1.0.user.js`
+**File**: `userscripts/github-auto-redirect-to-user-repositories-1.0.user.js`
 
 Questo script reindirizza automaticamente gli utenti loggati di GitHub alla pagina dei loro repository non appena visitano la homepage di GitHub. È pensato per coloro che desiderano accedere rapidamente ai loro progetti senza dover navigare attraverso il menu utente.
 
 ### Hacker News Enhancements
-**File**: `scripts/hacker-news-enhancer-1.0.js`
+**File**: `userscripts/hacker-news-enhancer-1.0.js`
 
 Questo script migliora la lettura dei commenti su Hacker News evidenziando i link in base al dominio di appartenenza, mettendo in evidenza il nome dell'autore del post e assicurando che tutti i link si aprano in una nuova scheda. È ideale per gli utenti che desiderano una navigazione più intuitiva e una maggiore leggibilità dei contenuti, permettendo di identificare facilmente i link esterni o rilevanti.
 
