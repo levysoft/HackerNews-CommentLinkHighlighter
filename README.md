@@ -18,7 +18,7 @@ After installation, navigate to [Hacker News](https://news.ycombinator.com/) and
 
 ## Compatibility and Installation
 
-These scripts have been designed to be compatible with both **Tampermonkey** and **Greasemonkey**, thus providing a wide range of options for users of different browsers. However, given the greater versatility and availability on multiple platforms, we recommend using **Tampermonkey** for a better user experience as it is available for Chrome, Firefox, Safari, and other modern browsers.
+These scripts have been designed to be compatible with both **Tampermonkey** and **Greasemonkey**, thus providing a wide range of options for users of different browsers. However, given the greater versatility and availability on multiple platforms, we recommend using **Tampermonkey** for a better user experience as it is available for Chrome, Firefox, Safari, and other modern browsers. For iOS users, the **Userscripts** app is available
 The functionality of the scripts remains the same regardless of the script manager used. Ensure you have the latest version of the script manager installed to guarantee compatibility and proper functioning of the scripts.
 
 ### Installation Steps:
@@ -29,10 +29,30 @@ The functionality of the scripts remains the same regardless of the script manag
 2. Navigate to the desired script in the `/scripts` directory.
 3. Click on the script file to view it, then click the "Raw" button to open the raw script file.
 4. Tampermonkey should automatically recognize the script and display an installation window. To ensure Tampermonkey recognizes the script from the "raw" file on GitHub, the file must have the .user.js extension and must begin with a UserScript metadata block. The URL should have a structure similar to this: `https://raw.githubusercontent.com/[username]/[repository]/[branch]/[filename].user.js`.
-6. Click "Install" to proceed.
+5. Click on "Install" to proceed with the script installation.
+
+After installation, the script will be active and functioning in your browser. With Tampermonkey, you can easily manage, disable, or remove installed scripts by selecting the "Dashboard" option from the Tampermonkey icon in your browser toolbar.
 
 ### Installation with Greasemonkey (for Firefox users)
-If you are a **Firefox** user and prefer **Greasemonkey**, the scripts should also work in this environment. However, since our installation guide is optimized for Tampermonkey, we invite you to follow the general instructions provided by Greasemonkey's documentation to add userscripts to your browser.
+If you are a _Firefox_ user and prefer **Greasemonkey**, scripts should also work in this environment.
+1. Install Greasemonkey on Firefox by visiting the Greasemonkey page on Mozilla Add-ons:
+   - [Greasemonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/).
+2. Navigate to the desired script in the `/scripts` directory.
+3. Click on the script file to view it, then click the "Raw" button to open the raw script file.
+4. With Greasemonkey active, visiting the "Raw" URL of the script should automatically open a Greasemonkey dialog asking if you want to install the script.
+5. Click "Install" to proceed with the script installation.
+
+After installation, the script should be active and functioning on Firefox. You can manage, disable, or remove the script through the Greasemonkey menu by selecting "Manage User Scripts".
+
+### Installation with Userscripts (app for iOS)
+If you are an _iOS_ user, you can use **Userscripts** to enable scripts on Safari.
+1. Install the [Userscripts app from the App Store](https://apps.apple.com/us/app/userscripts/id1463298887).
+2. Open the Userscripts app on your iOS device after installing it.
+3. Navigate to the desired script in the GitHub `/scripts` directory using the integrated browser in the Userscripts app or a browser on your device, and download the script to your device locally or to iCloud Drive.
+4. In the app, set the _Userscripts Directory_ where you have uploaded the scripts you previously downloaded.
+5. Ensure that the Userscripts app is enabled as a browser extension on your iOS device to allow script execution. Go to _Settings > Safari > Extensions_ (or whichever browser you use) and make sure Userscripts is enabled.
+
+Now you should be able to use the script on supported web pages when browsing with your iOS device.
 
 ## Feedback and Contributions
 Your feedback is highly appreciated! If you have suggestions, bugs to report, or improvements, feel free to open an issue or a pull request in the GitHub repository. If you would like to contribute to the project, pull requests are welcome.
