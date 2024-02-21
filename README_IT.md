@@ -29,10 +29,30 @@ La funzionalità degli script rimane la stessa indipendentemente dal gestore di 
 2. Naviga allo script desiderato nella directory `/scripts`.
 3. Clicca sul file dello script per visualizzarlo, poi clicca sul pulsante "Raw" per aprire il file dello script grezzo.
 4. Tampermonkey dovrebbe riconoscere automaticamente lo script e visualizzare una finestra di installazione. Per assicurarti che Tampermonkey riconosca lo script dal file "raw" su GitHub, il file deve avere l'estensione .user.js e e deve iniziare con un blocco dei metadati UserScript. L'URL dovrebbe avere una struttura simile a questa: `https://raw.githubusercontent.com/[username]/[repository]/[branch]/[filename].user.js`.
-5. Clicca su "Installa" per procedere.
+5. Clicca su "Installa" per procedere con l'installazione dello script.
+
+Dopo l'installazione, lo script sarà attivo e funzionante sul tuo browser. Con Tampermonkey, puoi facilmente gestire, disabilitare o rimuovere gli script installati selezionando dall'icona di Tampermonkey, nella tua barra degli strumenti del browser, la voce del menu "Pannello di Controllo" 
 
 ### Installazione con Greasemonkey (per utenti Firefox)
-Se sei un utente **Firefox** e preferisci **Greasemonkey**, gli script dovrebbero funzionare anche in questo ambiente. Tuttavia, poiché la nostra guida all'installazione è ottimizzata per Tampermonkey, ti invitiamo a seguire le istruzioni generali fornite dalla documentazione di Greasemonkey per aggiungere userscript al tuo browser.
+Se sei un utente _Firefox_ e preferisci **Greasemonkey**, gli script dovrebbero funzionare anche in questo ambiente.
+1. Installa Greasemonkey sul Firefox visitando la pagina di Greasemonkey su Mozilla Add-ons:
+   - [Greasemonkey per Firefox](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/).
+2. Naviga allo script desiderato nella directory `/scripts`.
+3. Clicca sul file dello script per visualizzarlo, poi clicca sul pulsante "Raw" per aprire il file dello script grezzo.
+4. Con Greasemonkey attivo, visitare l'URL "Raw" dello script dovrebbe automaticamente aprire una finestra di dialogo di Greasemonkey che ti chiede se desideri installare lo script.
+5. Clicca su "Installa" per procedere con l'installazione dello script.
+
+Dopo l'installazione, lo script dovrebbe essere attivo e funzionante su Firefox. Puoi gestire, disabilitare o rimuovere lo script tramite il menu di Greasemonkey selezionando "Gestisci script utente".
+
+### Installazione con Userscripts (app per iOS)
+Se sei un utente _iOS_ puoi usare **Userscripts** per abilitare gli script su Safari.
+1. Installa l'app [Userscripts da App Store](https://apps.apple.com/us/app/userscripts/id1463298887).
+2. Apri l'app Userscripts sul tuo dispositivo iOS dopo averla installata.
+3. Naviga allo script desiderato sulla directory GitHub `/scripts` utilizzando il browser integrato nell'app Userscripts o un browser sul tuo dispositivo e scarica lo script sul tuo dispostivo in locale o su iCloud Drive.
+4. Nella app imposta la _Userscripts Directory_ dove avrai caricato gli script che avrai, in precedenza, scaricato.
+5. Assicurati che l'app Userscripts sia abilitata come estensione del browser sul tuo dispositivo iOS per permettere l'esecuzione degli script. Vai a _Impostazioni > Safari > Estensioni_ (o il browser che usi) e assicurati che Userscripts sia abilitato.
+
+Ora dovresti essere in grado di utilizzare lo script sulle pagine web supportate quando navighi con il tuo dispositivo iOS.
 
 ## Feedback e Contributi
 Il tuo feedback è molto apprezzato! Se hai suggerimenti, bug da segnalare o miglioramenti, sentiti libero di aprire un issue o una pull request nel repository GitHub. Se desideri contribuire al progetto, le pull request sono benvenute.
