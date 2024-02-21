@@ -18,7 +18,7 @@ Dopo l'installazione, naviga su [Hacker News](https://news.ycombinator.com/) e a
 
 ## Compatibilità e Installazione
 
-Questi script sono stati progettati per essere compatibili sia con **Tampermonkey** che con **Greasemonkey**, permettendo così una vasta gamma di opzioni per gli utenti di diversi browser. Tuttavia, data la maggiore versatilità e la disponibilità su più piattaforme, raccomandiamo l'uso di **Tampermonkey** per una migliore esperienza utente visto che è disponibile per Chrome, Firefox, Safari e altri browser moderni.
+Questi script sono stati progettati per essere compatibili sia con **Tampermonkey** che con **Greasemonkey**, permettendo così una vasta gamma di opzioni per gli utenti di diversi browser. Tuttavia, data la maggiore versatilità e la disponibilità su più piattaforme, raccomandiamo l'uso di **Tampermonkey** per una migliore esperienza utente visto che è disponibile per Chrome, Firefox, Safari e altri browser moderni. Per gli utenti iOS è disponibile l'app **Userscripts**.
 La funzionalità degli script rimane la stessa indipendentemente dal gestore di userscript utilizzato. Assicurati di avere l'ultima versione del gestore di userscript installata per garantire la compatibilità e il corretto funzionamento degli script.
 
 ### Passaggi per l'installazione:
