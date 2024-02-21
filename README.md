@@ -28,7 +28,8 @@ The functionality of the scripts remains the same regardless of the script manag
     - [Tampermonkey for Safari](https://tampermonkey.net/?ext=dhdg&browser=safari)
 2. Navigate to the desired script in the `/scripts` directory.
 3. Click on the script file to view it, then click the "Raw" button to open the raw script file.
-4. Tampermonkey should automatically recognize the script and display an installation window. Click "Install" to proceed.
+4. Tampermonkey should automatically recognize the script and display an installation window. To ensure Tampermonkey recognizes the script from the "raw" file on GitHub, the file must have the .user.js extension and must begin with a UserScript metadata block. The URL should have a structure similar to this: `https://raw.githubusercontent.com/[username]/[repository]/[branch]/[filename].user.js`.
+6. Click "Install" to proceed.
 
 ### Installation with Greasemonkey (for Firefox users)
 If you are a **Firefox** user and prefer **Greasemonkey**, the scripts should also work in this environment. However, since our installation guide is optimized for Tampermonkey, we invite you to follow the general instructions provided by Greasemonkey's documentation to add userscripts to your browser.
