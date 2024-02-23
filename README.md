@@ -10,7 +10,7 @@ This repository contains a collection of Tampermonkey scripts designed to enhanc
 This script automatically redirects logged-in GitHub users to their repositories page as soon as they visit the GitHub homepage. It is intended for those who want to quickly access their projects without having to navigate through the user menu.
 
 ### Hacker News Enhancements
-**File**: `userscripts/hacker-news-enhancer-1.1.user.js`
+**File**: `userscripts/hacker-news-enhancer-1.0.user.js`
 
 This script improves the reading of comments on Hacker News by highlighting links based on their domain, highlighting the post author's name, and ensuring that all links open in a new tab. It's ideal for users who want more intuitive navigation and greater readability of content, allowing for easy identification of external or relevant links.
 
