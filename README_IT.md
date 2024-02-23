@@ -12,9 +12,15 @@ Questo script reindirizza automaticamente gli utenti loggati di GitHub alla pagi
 ### Hacker News Enhancements
 **File**: `userscripts/hacker-news-enhancer-1.1.user.js`
 
-Questo script migliora la lettura dei commenti su Hacker News evidenziando i link in base al dominio di appartenenza, mettendo in evidenza il nome dell'autore del post e assicurando che tutti i link si aprano in una nuova scheda. Inoltre, integra i link per le submission e i commenti votati direttamente nell'intestazione, utilizzando il nome utente dell'account loggato. È ideale per gli utenti che desiderano una navigazione più intuitiva e una maggiore leggibilità dei contenuti, permettendo di identificare facilmente i link esterni o rilevanti.
+Questo script migliora la lettura dei commenti su Hacker News evidenziando i link in base al dominio di appartenenza, mettendo in evidenza il nome dell'autore del post e assicurando che tutti i link si aprano in una nuova scheda. È ideale per gli utenti che desiderano una navigazione più intuitiva e una maggiore leggibilità dei contenuti, permettendo di identificare facilmente i link esterni o rilevanti.
 
-Dopo l'installazione, naviga su [Hacker News](https://news.ycombinator.com/) e apri qualsiasi thread di commenti. Noterai che tutti i link sono ora evidenziati non solo per risaltare, ma anche per indicare il loro dominio di origine a colpo d'occhio, e cliccandoci sopra il contenuto si aprirà in una nuova scheda. Infine lo script aggiunge dinamicamente nel header i link rapidi alle tue submission votate ("↑ subs") e ai commenti votati ("↑ comms"), basati sul nome utente loggato. Questa nuova funzionalità permette una navigazione più veloce verso i contenuti con cui hai interagito.
+Dopo l'installazione, naviga su [Hacker News](https://news.ycombinator.com/) e apri qualsiasi thread di commenti. Noterai che tutti i link sono ora evidenziati non solo per risaltare, ma anche per indicare il loro dominio di origine a colpo d'occhio, e cliccandoci sopra il contenuto si aprirà in una nuova scheda.
+
+### Hacker News Add Voted Links
+**File**: `hacker-news-add-links-upvoted-1.0.user.js`
+Questo script integra i link per le submission e i commenti votati direttamente nell'intestazione, utilizzando il nome utente dell'account loggato.
+
+Dopo l'installazione, naviga su [Hacker News](https://news.ycombinator.com/) e nel header verranno aggiunti i link rapidi alle tue submission votate ("↑ subs") e ai commenti votati ("↑ comms"), basati sul nome utente loggato. Questa nuova funzionalità permette una navigazione più veloce verso i contenuti con cui hai interagito.
 
 ## Compatibilità e Installazione
 
