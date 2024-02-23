@@ -16,7 +16,7 @@ Questo script migliora la lettura dei commenti su Hacker News evidenziando i lin
 
 Dopo l'installazione, naviga su [Hacker News](https://news.ycombinator.com/) e apri qualsiasi thread di commenti. Noterai che tutti i link sono ora evidenziati non solo per risaltare, ma anche per indicare il loro dominio di origine a colpo d'occhio, e cliccandoci sopra il contenuto si aprirà in una nuova scheda.
 
-### Hacker News Add Voted Links
+### Hacker News Add Links Upvoted
 **File**: `hacker-news-add-links-upvoted-1.0.user.js`
 Questo script integra i link per le submission e i commenti votati direttamente nell'intestazione, utilizzando il nome utente dell'account loggato.
 
