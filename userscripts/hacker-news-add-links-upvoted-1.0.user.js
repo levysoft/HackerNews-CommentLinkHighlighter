@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Add Voted Submissions and Comments Links to Hacker News
+// @name         Hacker News Add Links Upvoted
 // @namespace    https://github.com/levysoft
 // @author       levysoft
 // @description  Adds dynamic links for voted submissions and comments in the Hacker News header based on the logged-in username
