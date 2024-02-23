@@ -10,11 +10,11 @@ This repository contains a collection of Tampermonkey scripts designed to enhanc
 This script automatically redirects logged-in GitHub users to their repositories page as soon as they visit the GitHub homepage. It is intended for those who want to quickly access their projects without having to navigate through the user menu.
 
 ### Hacker News Enhancements
-**File**: `userscripts/hacker-news-enhancer-1.0.user.js`
+**File**: `userscripts/hacker-news-enhancer-1.1.user.js`
 
-This script improves reading comments on Hacker News by highlighting links based on their domain, highlighting the name of the post author, and ensuring that all links open in a new tab. It is ideal for users who desire more intuitive navigation and greater readability of content, allowing for easy identification of external or relevant links.
+This script enhances the readability of comments on Hacker News by highlighting links based on their domain, highlighting the name of the post's author, and ensuring that all links open in a new tab. Additionally, it integrates links for voted submissions and comments directly into the header, using the username of the logged-in account. It's ideal for users who want more intuitive navigation and improved content readability, making it easy to identify external or significant links.
 
-After installation, navigate to [Hacker News](https://news.ycombinator.com/) and open any comment thread. You will notice that all links are now highlighted not only to stand out but also to indicate their source domain at a glance, and clicking on them will open the content in a new tab.
+After installation, navigate to [Hacker News](https://news.ycombinator.com/) and open any comment thread. You will notice that all links are now highlighted not only to stand out but also to indicate their source domain at a glance, and clicking on them will open the content in a new tab. Finally, the script dynamically adds quick access links in the header for your voted submissions ("↑ subs") and voted comments ("↑ comms"), based on the logged-in username. This new feature allows for faster navigation to content you've interacted with.
 
 ## Compatibility and Installation
 
