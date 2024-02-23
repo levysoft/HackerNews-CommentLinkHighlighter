@@ -12,9 +12,15 @@ This script automatically redirects logged-in GitHub users to their repositories
 ### Hacker News Enhancements
 **File**: `userscripts/hacker-news-enhancer-1.1.user.js`
 
-This script enhances the readability of comments on Hacker News by highlighting links based on their domain, highlighting the name of the post's author, and ensuring that all links open in a new tab. Additionally, it integrates links for voted submissions and comments directly into the header, using the username of the logged-in account. It's ideal for users who want more intuitive navigation and improved content readability, making it easy to identify external or significant links.
+This script improves the reading of comments on Hacker News by highlighting links based on their domain, highlighting the post author's name, and ensuring that all links open in a new tab. It's ideal for users who want more intuitive navigation and greater readability of content, allowing for easy identification of external or relevant links.
 
-After installation, navigate to [Hacker News](https://news.ycombinator.com/) and open any comment thread. You will notice that all links are now highlighted not only to stand out but also to indicate their source domain at a glance, and clicking on them will open the content in a new tab. Finally, the script dynamically adds quick access links in the header for your voted submissions ("↑ subs") and voted comments ("↑ comms"), based on the logged-in username. This new feature allows for faster navigation to content you've interacted with.
+After installation, navigate to [Hacker News](https://news.ycombinator.com/) and open any comment thread. You'll notice that all links are now highlighted not only to stand out but also to indicate their source domain at a glance, and clicking on them will open the content in a new tab.
+
+### Hacker News Add Links Upvoted
+**File**: `hacker-news-add-links-upvoted-1.0.user.js`
+This script adds links for upvoted submissions and comments directly in the header, using the logged-in account's username.
+
+After installation, navigate to [Hacker News](https://news.ycombinator.com/) and quick links to your upvoted submissions ("↑ subs") and comments ("↑ comms") will be added to the header, based on the logged-in username. This new feature allows for faster navigation to content you've interacted with.
 
 ## Compatibility and Installation
 
